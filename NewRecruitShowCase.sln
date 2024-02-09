@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase.Application.Api", "ShowCase.Application.Api\ShowCase.Application.Api.csproj", "{033E937B-B7B1-4DB7-A45F-CFA010BE7731}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowCase.Application.Api", "ShowCase.Application.Api\ShowCase.Application.Api.csproj", "{033E937B-B7B1-4DB7-A45F-CFA010BE7731}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase.Application.Client", "ShowCase.Application.Client\ShowCase.Application.Client.csproj", "{C8B13467-5E39-4EA5-A7E4-7D790C8203E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowCase.Application.Client", "ShowCase.Application.Client\ShowCase.Application.Client.csproj", "{C8B13467-5E39-4EA5-A7E4-7D790C8203E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase.Application.Library", "ShowCase.Application.Library\ShowCase.Application.Library.csproj", "{06314C99-5AC6-4667-B8CE-9C29DAF638E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShowCase.Application.Library", "ShowCase.Application.Library\ShowCase.Application.Library.csproj", "{06314C99-5AC6-4667-B8CE-9C29DAF638E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Showcase.Blazor.WebServer", "Showcase.Blazor.WebServer\Showcase.Blazor.WebServer.csproj", "{467D3DD5-E1CD-4AAC-9285-674DAD9EAD01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Showcase.Blazor.WebServer", "Showcase.Blazor.WebServer\Showcase.Blazor.WebServer.csproj", "{467D3DD5-E1CD-4AAC-9285-674DAD9EAD01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase.Application.Api.Tests", "ShowCase.Application.Api.Tests\ShowCase.Application.Api.Tests.csproj", "{5825971C-0D4C-4298-AD80-2B31D132FE09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{467D3DD5-E1CD-4AAC-9285-674DAD9EAD01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{467D3DD5-E1CD-4AAC-9285-674DAD9EAD01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{467D3DD5-E1CD-4AAC-9285-674DAD9EAD01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5825971C-0D4C-4298-AD80-2B31D132FE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5825971C-0D4C-4298-AD80-2B31D132FE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5825971C-0D4C-4298-AD80-2B31D132FE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5825971C-0D4C-4298-AD80-2B31D132FE09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
