@@ -1,7 +1,8 @@
 ﻿@page "/weather"
 @using ShowCase.Application.Client
 @using ShowCase.Application.Library
-@attribute [StreamRendering] 
+@attribute [RenderModeInteractiveServer]
+
 
 @inject IWeatherClient WeatherClient
 
@@ -17,6 +18,8 @@
 }
 else
 {
+    <button class="btn btn-primary" @onclick="RefreshData">Refresh</button>
+
     <table class="table">
         <thead>
             <tr>
@@ -48,6 +51,10 @@ else
         _forecasts = await WeatherClient.GetWeatherForecastAsync();
     }
 
+    private async Task RefreshData()
+    {
+        _forecasts = await WeatherClient.GetWeatherForecastAsync();
+    }
    
    
 }
